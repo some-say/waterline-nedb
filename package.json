@@ -1,0 +1,87 @@
+{
+  "name": "sails-nedb",
+  "version": "0.11.0-alpha",
+  "description": "NeDB adapter for Sails.js",
+  "main": "./lib/adapter.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "tingodb",
+    "mongodb",
+    "orm",
+    "waterline",
+    "sails"
+  ],
+  "contributors": [
+    {
+      "name": "Cody Stoltman",
+      "email": "particlebanana@gmail.com"
+    },
+    {
+      "name": "Zolmeister",
+      "email": "zolikahan@gmail.com"
+    },
+    {
+      "name": "Robin Persson",
+      "email": "rprssn@gmail.com"
+    },
+    {
+      "name": "Ted Kulp",
+      "email": "github@wishy.org"
+    },
+    {
+      "email": "anonymous@test.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andyhu/sails-nedb.git"
+  },
+  "dependencies": {
+    "async": "latest",
+    "lodash": "latest",
+    "nedb": "latest",
+    "waterline-cursor": "^0.0.5",
+    "waterline-errors": "^0.10.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "waterline-adapter-tests": "^0.10.0",
+    "captains-log": "~0.11.1"
+  },
+  "waterlineAdapter": {
+    "waterlineVersion": "~0.10.0",
+    "interfaces": [
+      "semantic",
+      "queryable",
+      "associations"
+    ]
+  },
+  "gitHead": "fddb634b709387a8bd360bf95018bf450e1d944a",
+  "bugs": {
+    "url": "https://github.com/andyhu/sails-nedb/issues"
+  },
+  "homepage": "https://github.com/andyhu/sails-nedb",
+  "_id": "sails-tingo@0.11.5-alpha2",
+  "_shasum": "c273a0c4453512aa1244bf7649a69feb8681b2a2",
+  "_from": "sails-tingo@",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "andyhu",
+    "email": "huyifan@vip.sina.com"
+  },
+  "maintainers": [
+    {
+      "name": "andyhu",
+      "email": "huyifan@vip.sina.com"
+    }
+  ],
+  "dist": {
+    "shasum": "c273a0c4453512aa1244bf7649a69feb8681b2a2",
+    "tarball": "http://registry.npmjs.org/sails-tingo/-/sails-tingo-0.11.5-alpha2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/sails-tingo/-/sails-tingo-0.11.5-alpha2.tgz"
+}
