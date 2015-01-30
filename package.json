@@ -1,5 +1,5 @@
 {
-  "name": "sails-nedb",
+  "name": "waterline-nedb",
   "version": "0.11.0-alpha2",
   "description": "NeDB adapter for Sails.js",
   "main": "./lib/adapter.js",
@@ -7,7 +7,7 @@
     "test": "make test"
   },
   "keywords": [
-    "tingodb",
+    "nedb",
     "mongodb",
     "orm",
     "waterline",
@@ -59,29 +59,14 @@
       "associations"
     ]
   },
-  "gitHead": "fddb634b709387a8bd360bf95018bf450e1d944a",
   "bugs": {
-    "url": "https://github.com/andyhu/sails-nedb/issues"
+    "url": "https://github.com/andyhu/waterline-nedb/issues"
   },
-  "homepage": "https://github.com/andyhu/sails-nedb",
-  "_id": "sails-tingo@0.11.5-alpha2",
-  "_shasum": "c273a0c4453512aa1244bf7649a69feb8681b2a2",
-  "_from": "sails-tingo@",
-  "_npmVersion": "1.4.28",
-  "_npmUser": {
-    "name": "andyhu",
-    "email": "huyifan@vip.sina.com"
-  },
+  "homepage": "https://github.com/andyhu/waterline-nedb",
   "maintainers": [
     {
       "name": "andyhu",
-      "email": "huyifan@vip.sina.com"
+      "email": "andyhu@dispostable.com"
     }
-  ],
-  "dist": {
-    "shasum": "c273a0c4453512aa1244bf7649a69feb8681b2a2",
-    "tarball": "http://registry.npmjs.org/sails-tingo/-/sails-tingo-0.11.5-alpha2.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/sails-tingo/-/sails-tingo-0.11.5-alpha2.tgz"
+  ]
 }
