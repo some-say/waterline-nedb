@@ -9,7 +9,7 @@ Waterline adapter for NeDB. NeDB is a performant embedded database written in pu
 Install from NPM.
 
 ```bash
-$ npm install git://github.com/andyhu/sails-nedb --save
+$ npm install git://github.com/andyhu/waterline-nedb --save
 ```
 
 ## Sails Configuration
@@ -22,7 +22,7 @@ Add the nedb config to the `config/connections.js` file.
 module.exports.connections = {
 
   nedb: {
-    adapter: 'sails-nedb',
+    adapter: 'waterline-nedb',
 
     dbPath: 'path/to/nedb', // Required, set to an empty directory for a new project
 
